@@ -1,0 +1,9 @@
+{
+  "rewrites": [
+    {
+      "source": "/advisor-api/:path*",
+      "destination": "https://learn-stocks-wkis.vercel.app/:path*"
+    },
+    { "source": "/(.*)", "destination": "/" }
+  ]
+}
